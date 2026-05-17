@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Invoices</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h2>Invoices management</h2>
+        <ul>
+          <li><a href="Index.html">Home</a></li>
+          <li><a href="Clients.html">Clients</a></li>
+          <li><a href="Invoices.html">Invoices</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <h1>Invoices</h1>
+
+        <form id="invoiceForm">
+          <select id="clientSelect"></select>
+
+          <input type="text" id="serviceTitle" placeholder="Service Title" />
+
+          <textarea id="description" placeholder="Description"></textarea>
+
+          <input type="number" id="amount" placeholder="Amount" />
+
+          <input type="date" id="date" />
+
+          <button type="submit">Save Invoice</button>
+        </form>
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Client</th>
+              <th>Service</th>
+              <th>Amount</th>
+              <th>Status</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+
+          <tbody id="invoiceTable"></tbody>
+        </table>
+      </div>
+    </main>
+
+    <footer>
+      <h2>HamrahHub-2026</h2>
+    </footer>
+
+    <script type="module" src="js/Invoices.js"></script>
+  </body>
+</html>

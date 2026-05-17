@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Dashbord</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h2>Dashbord</h2>
+        <ul>
+          <li><a href="Index.html">Home</a></li>
+          <li><a href="Clients.html">Clients</a></li>
+          <li><a href="Invoices.html">Invoices</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Freelance Dashboard</h1>
+
+      <div class="container">
+
+        <div class="cards">
+          <div class="card">
+            <h3>Total Clients</h3>
+            <p id="totalClients">0</p>
+          </div>
+
+          <div class="card">
+            <h3>Total Invoices</h3>
+            <p id="totalInvoices">0</p>
+          </div>
+
+          <div class="card">
+            <h3>Total Revenue</h3>
+            <p>$<span id="totalRevenue">0</span></p>
+          </div>
+
+          <div class="card">
+            <h3>Paid Invoices</h3>
+            <p id="paidInvoices">0</p>
+          </div>
+
+          <div class="card">
+            <h3>Unpaid Invoices</h3>
+            <p id="unpaidInvoices">0</p>
+          </div>
+        </div>
+
+        <div class="quote-box">
+          <p id="quote">Loading quote...</p>
+          <small id="author"></small>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="js/main.js"></script>
+
+    <footer>
+      <h2>HamrahHub-2026</h2>
+    </footer>
+  </body>
+</html>
