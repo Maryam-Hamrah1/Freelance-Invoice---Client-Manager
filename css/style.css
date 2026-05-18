@@ -135,10 +135,15 @@ button {
   font-weight: bold;
 }
 
-.table {
-  margin: 30px;
+.table-containe{
+  overflow-x: auto;
   width: 90%;
+  margin: 30px;
   padding: 10px;
+}
+
+.table {
+  max-width: 700px;
   color: rgb(226, 208, 208);
   background-color: rgb(51, 48, 48);
   border-radius: 8px;

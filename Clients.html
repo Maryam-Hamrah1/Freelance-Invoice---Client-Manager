@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <title>Clients</title>
   </head>
   <body>
@@ -31,19 +31,20 @@
 
           <button type="submit">Save Client</button>
         </form>
+        <div class="table-container">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Company</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
 
-        <table class="table">
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Email</th>
-              <th>Company</th>
-              <th>Actions</th>
-            </tr>
-          </thead>
-
-          <tbody id="clientTable"></tbody>
-        </table>
+            <tbody id="clientTable"></tbody>
+          </table>
+        </div>
       </div>
     </main>
 
@@ -51,6 +52,6 @@
       <h2>HamrahHub-2026</h2>
     </footer>
 
-    <script type="module"  src="js/Clients.js"></script>
+    <script type="module" src="js/Clients.js"></script>
   </body>
 </html>
